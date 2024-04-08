@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import chalk from "chalk";
-console.log(chalk.bold.underline.bgYellow.blue("\n***** WELCOME TO NUMBER GUESSING GAME *****\n"));
+console.log(chalk.bold.underline.bgYellowBright.blueBright("\n***** WELCOME TO NUMBER GUESSING GAME *****\n"));
 let condition = true;
 while (condition) {
     const randomNumber = Math.floor(Math.random() * 6 + 1);

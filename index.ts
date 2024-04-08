@@ -3,7 +3,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-console.log(chalk.bold.underline.bgYellow.blue("\n***** WELCOME TO NUMBER GUESSING GAME *****\n"))
+console.log(chalk.bold.underline.bgYellowBright.blueBright("\n***** WELCOME TO NUMBER GUESSING GAME *****\n"))
 
 let condition = true;
 
